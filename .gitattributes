@@ -1,0 +1,6 @@
+# Normalize line endings to LF in the repository (important for Azure Linux deployment)
+* text=auto eol=lf
+
+# Explicitly keep Windows-only files with CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
