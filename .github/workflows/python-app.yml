@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 env:
-  PYTHON_VERSION: '3.13
+  PYTHON_VERSION: '3.13'
 
 permissions:
   contents: read
